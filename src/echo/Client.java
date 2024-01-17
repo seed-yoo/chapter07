@@ -22,7 +22,7 @@ public class Client {
 		System.out.println("===========================");
 
 		System.out.println("[서버에 연결을 요청합니다.]");
-		socket.connect(new InetSocketAddress("192.168.0.59", 10000));	// ("본인 컴퓨터 IP주소", port 번호 지정)
+		socket.connect(new InetSocketAddress("192.168.0.59", 10002));	// ("본인 컴퓨터 IP주소", port 번호 지정)
 
 		System.out.println("[서버에 연결 되었습니다.]");
 
@@ -49,8 +49,6 @@ public class Client {
 		InputStreamReader scIsr = new InputStreamReader(sc, "UTF-8");
 		BufferedReader scBr = new BufferedReader(scIsr);
 		*/
-		
-		
 		
 		
 		while (true) {
